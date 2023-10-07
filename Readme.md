@@ -10,3 +10,8 @@
 8. npm i nodemon  - запуск и перезапуск сервера при изменении
 9. npm i -D webpack-dev-middleware webpack-hot-middleware react-hot-loader @hot-loader/react-dom - Применение изменений на горячую (не работет с 18 react-ом)
 10. npm i -D clean-webpack-plugin - очистка чанков загруженных на горячую 
+11. npm i -D style-loader css-loader - css модули
+12. npm i -D less-loader less - css препроцессор
+13. npm i -D jest ts-jest @types/jest - тесты
+14. npx ts-jest config:init - инициализация тестов
+15. npx jest - запуск тестов
