@@ -29,3 +29,20 @@ body {
   -webkit-font-smoothig: antialiased;
   -moz-font-smoothing: grayscale;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}

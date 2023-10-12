@@ -5,6 +5,7 @@ import React from 'react';
 import { Header } from './shared/Header';
 import { Layout } from './shared/Layout';
 import { Content } from './shared/Content';
+import {CardsList} from "./shared/CardsList";
 
 
 
@@ -15,7 +16,7 @@ function AppComponent() {
     <Layout>
       <Header/>
       <Content>
-        content
+        <CardsList/>
       </Content>
     </Layout>
   );
