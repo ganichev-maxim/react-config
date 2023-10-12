@@ -15,3 +15,8 @@
 13. npm i -D jest ts-jest @types/jest - тесты
 14. npx ts-jest config:init - инициализация тестов
 15. npx jest - запуск тестов
+16. npm i -D @types/react @types/react-dom
+17. Генерация компонентов
+    npm install -g yo
+    npm install -g generator-react-ts-component-dir
+    yo react-ts-component-dir SortBlock .\src\shared\Header  
